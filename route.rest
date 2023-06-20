@@ -1,0 +1,16 @@
+GET http://localhost:8000/users/
+
+###
+
+GET http://localhost:8000/users/15
+
+
+###
+
+POST http://localhost:8000/sales/
+
+{
+    "itemname": "mango",
+    "qty": 5,
+    "category": "fruits"
+}
